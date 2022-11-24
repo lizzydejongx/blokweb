@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   blauw
 
   #### Je focus:
-  responsive 
+  Surface plane
  
 </details>
 
@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://wrts.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  wrts
+  <img src="readme-images/sswrtssmal" width="375px" alt="beginscherm wrts smal">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  pakketten
+  <img src="readme-images/sswrtspakketten" width="375px" alt="pakketten pagina smal">
  
 </details>
 
@@ -57,18 +57,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Werkt helemaal niet handig, allesis een knop of kader.
+  Je kan moeilijk door de website heel komen.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
+  Een goeie structuur zodat er makkelijk door de website heen worden geworden gescrold.
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Ik wist niet welke toetsen ik moest gebruiken om door de website te komen. 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -78,8 +80,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Veel kleurgebruik maar soms weinig contrast. Geen dark modus. 
+  <img src="readme-images/weinigcontrast" width="375px" alt="weinig contrast voorbeeld">
 
 </details>
 
@@ -112,16 +114,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  De typografie gaat erg goed al die termen weet ik en kan ik toepassen.
+  Ik vind margin en padding moeilijk en doe vaak maar wat.
+  Ik heb moeilijke met display: flex omdat ik snel schrik en het dan weghaal.
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Iedereen 2/3   | en dit             | en ik dit    | en dan ik dat    |
+  | vragen         | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | bedenken       | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
