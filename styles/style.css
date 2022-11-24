@@ -32,3 +32,236 @@ button, summary {
 
 /* jouw code */
 
+body {
+	background-color: rgb(101 46 163);
+  }
+  
+  header img:first-of-type{
+	height: 2.8em;
+  }
+  
+  header h1{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 1.8em;
+	letter-spacing: .05em;
+  }
+  
+  header button{
+	background-color: rgb(27 186 99);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 550;
+	padding: 6px 18px;
+	border-radius: 20px;
+	border: 0em;
+	box-shadow: 0 5px rgb(22 158 84);
+  }
+  
+  header{
+	background-color: rgb(101 46 163);
+	display: flex;
+	justify-content: space-around;
+	height: 4em;
+	align-items: center;
+  }
+  
+  header h1{
+	padding-left: 8px;
+	margin-right: 50px;
+  }
+  
+  header button{
+	margin-left: 20px;
+  }
+  
+  header img:nth-of-type(2){
+	height:2em;
+  }
+  
+  
+  main section:first-of-type{
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  }
+  
+  
+  main section:first-of-type h1{
+	padding-top: 0.8em;
+	padding-bottom: 0em;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	letter-spacing: .05em;
+	text-align: center;
+  }
+  
+  main section:first-of-type  h2{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: .05em;
+	text-align: center;
+  }
+  
+  main section:first-of-type  p{
+	color: rgba(255, 255, 255, 0.8);
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 1em;
+	margin-right: 1em;
+  }
+  
+  
+  
+  main section:first-of-type button{
+	display: flex;
+	margin-top: 1.6em;
+	background-color: rgb(27 186 99);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 550;
+	padding: 12px 32px;
+	border-radius: 20px;
+	border: 0em;
+	box-shadow: 0 5px rgb(22 158 84);
+  }
+  
+  main section:first-of-type a{
+	display: flex;
+	margin-top: 2.5em; 
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	text-decoration: none;
+  }
+  
+  
+  main section:first-of-type > img {
+	margin-top: 2em;
+  }
+  
+  main section:nth-of-type(2){
+	background-color: rgba(242,241,244,255);
+	margin-top: 2em;
+	margin-left: -2em;
+	margin-right: -0.5em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+  }
+  
+  main section:nth-of-type(2) ul:first-of-type {
+	display:flex;
+	gap:.5em;
+	overflow-x:auto; 
+	scroll-snap-type: x mandatory;
+	overscroll-behavior: contain auto; 
+	-webkit-overflow-scrolling: touch;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(50 48 54);
+	list-style:none;
+	padding: 1em 2em;
+  }
+  
+  /* main section:nth-of-type(2) ul:first-of-type li { */
+	/* flex-basis:5em; */
+	/* flex-shrink:0; */
+	/* align-items:center; */
+	/* gap:.25em; */
+	/* scroll-snap-align: center; */
+	/* display:flex; */
+  /* } */
+  
+  main section:nth-of-type(2) li button{
+	display:flex;
+	background:white;
+	position:relative;
+	margin:0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	border-radius: 10px;
+	border: 0em;
+	box-shadow:1px 1px 1px 1px rgba(10,10,10,0.1);
+  }
+  
+  
+  
+  main section:nth-of-type(3){
+	background-color:white;
+  }
+  
+  main section:nth-of-type(3) h2{
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: .05em;
+	text-align: center;
+	padding-top: 3em;
+  
+  }
+  
+  main section:nth-of-type(3) p:first-of-type{
+	color:rgb(230, 138, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: .05em;
+	font-size: 1.5em;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.3em;
+  }
+  
+  main section:nth-of-type(3) p:first-of-type img{
+	vertical-align: middle;
+	width: 30%; 
+  }
+  
+  main section:nth-of-type(3) p:last-of-type{
+	color: rgb(112, 122, 131);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 550;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 3em;
+  }
+  
+  article {
+	background-color: white;
+	width: 100%;
+  
+  }
+  article ul {
+	margin: 0;
+	width: 100%;
+  }
+  article ul li {
+	margin: 0 2em;
+	border: 1px solid lightgrey;
+  }
+  
+  article ul li:first-of-type{
+	height: 30em;
+	list-style: none;
+  }
+  
+  article ul li:first-of-type img:first-of-type{
+	width: 50%
+  
+  }
+  article ul li:first-of-type img:last-of-type{
+	width: 100%
+  }
+  
+  
